@@ -1,14 +1,11 @@
-## Project description
-
-
 ## Usage
 
 This is a simple spotify playlist generator
 
 ```python
-from spotify_playlist_generator import SpotifyPlaylistGenerator
+from spg import spotify_playlist_generator
 
-spotify = SpotifyPlaylistGenerator()
+spotify = spotify_playlist_generator.SpotifyPlaylistGenerator()
 songs_list = spotify.get_songs()
 spotify.create_playlist()
 ```
@@ -22,5 +19,5 @@ The top 1-100 billboard chart songs are then generated and populated on your bra
 Install from PyPi using pip, a package manager for Python.
 
 ```
-$ python -m pip install spotify_playlist_generator_2
+$ python -m pip install spotify-playlist-generator-1
 ```
