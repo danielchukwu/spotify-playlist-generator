@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spg/__init__.py
+src/spg/spotify_playlist_generator.py
+src/spotify_playlist_generator_1.egg-info/PKG-INFO
+src/spotify_playlist_generator_1.egg-info/SOURCES.txt
+src/spotify_playlist_generator_1.egg-info/dependency_links.txt
+src/spotify_playlist_generator_1.egg-info/top_level.txt
