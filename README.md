@@ -6,7 +6,7 @@
 This is a simple spotify playlist generator
 
 ```python
-from spotify_playlist_generator import SpotifyPlaylistGenerator
+from spotify_playlist_generator_100 import SpotifyPlaylistGenerator
 
 spotify = SpotifyPlaylistGenerator()
 songs_list = spotify.get_songs()

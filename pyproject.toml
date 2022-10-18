@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 
 [project]
-name = "spotify-playlist-generator-2"
+name = "spotify-playlist-generator-100"
 version = "0.0.1"
 authors = [
   { name="danielchukwu", email="00chukwudaniel@gmail.com" },
