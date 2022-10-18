@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 
 [project]
-name = "spotify_playlist_generator_chukwudaniel"
+name = "spotify playlist generator 2"
 version = "0.0.1"
 authors = [
-  { name="daniel chukwu", email="00chukwudaniel@gmail.com" },
+  { name="danielchukwu", email="00chukwudaniel@gmail.com" },
 ]
-description = "A small example package"
+description = "A simple to use spotify playlist generator"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -19,5 +19,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/danielchukwu/spotify-playlist-generator"
+"Bug Tracker" = "https://github.com/danielchukwu/spotify-playlist-generator/issues"
