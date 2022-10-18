@@ -1,16 +1,6 @@
-# Python - 3.10
-# Topic - Musical Time Machine
-# Program - Working with the spotify api to create a playlist populated with the billboards top 1-100 songs from a particular date
-
-
-
-
-# Let's Code💢
-from http import client
 import json
 from bs4 import BeautifulSoup
 import requests
-# from tracks_uri import get_tracks_uri
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
@@ -19,7 +9,6 @@ class SpotifyPlaylistGenerator:
 
    def __init__(self) -> None:
       self.user_id = None
-      # self.search_token = None
       self.playlist_token = None
       self.is_public = True      
       self.spotify = None
@@ -51,9 +40,8 @@ class SpotifyPlaylistGenerator:
    def _get_user_id(self):
       print("\nTIP: You can get your spotify user_id/username from https://www.spotify.com/us/account/overview/ ")
       user_id = ""
-      # my user_id = "egnbqb281n6t7mhjh0fbowo2k"
       while len(user_id) < 20:
-         user_id = input("Enter your user_id/username ex. egnbqb281n6t7mxah0fbowo2k: \n")
+         user_id = input("Enter your user_id/username ex. egnbqb281n6t7vjah0fbowo2k: \n")
       self.user_id = user_id
 
 
