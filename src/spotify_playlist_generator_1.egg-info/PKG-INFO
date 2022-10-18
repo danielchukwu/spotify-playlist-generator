@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: spotify-playlist-generator-1
+Version: 0.0.3
+Summary: A simple to use spotify playlist generator
+Home-page: https://github.com/danielchukwu/spotify-playlist-generator
+Author: Daniel
+Author-email: 00chukwudaniel@gmail.com
+Project-URL: Bug Tracker, https://github.com/danielchukwu/spotify-playlist-generator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Usage
+
+This is a simple spotify playlist generator
+
+```python
+from spg import spotify_playlist_generator
+
+spotify = spotify_playlist_generator.SpotifyPlaylistGenerator()
+songs_list = spotify.get_songs()
+spotify.create_playlist()
+```
+
+This simple spotify playlist generator generates a playlist on your spotify account after being provided a series of validation tokens and keys from your spotify account, a date and a range of songs you want on your playlist.
+
+The top 1-100 billboard chart songs are then generated and populated on your brand new spotify playlist
+
+### Installation
+
+Install from PyPi using pip, a package manager for Python.
+
+```
+$ python -m pip install spotify-playlist-generator-1
+```
